@@ -1,0 +1,59 @@
+html{
+	font-size: 10px;
+}
+.message {
+	text-align: center;
+	margin-top: 7.6rem;
+	margin-right: 2.6rem;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	padding: 3rem;
+}
+.form-control{
+	font-size: 1.6rem;
+}
+.login-form {
+	margin-top: 45%;
+	font-size: 1.6rem;
+	background: #232526;
+	color: #FFFFFF;
+	padding: 2.6rem;
+	border-radius: 1.6rem;
+	box-shadow: .16rem .16rem 1.6rem .16rem #232526;
+	margin-bottom: 4rem;
+	border-style: none;
+}
+.form-last {
+	padding: .16rem; 
+	text-align: center;
+}
+
+.btn {
+	background: #267871;
+	border-style: none;
+	font-size: 1.6rem;
+}
+.btn:hover {
+  background: #3A9070;
+  border-style: none;
+}
+
+.nav-item {
+	text-align: center;
+	font-size: 2rem;
+	margin: 1rem;
+	font-variant:small-caps; 
+}
+.navbar-brand {
+	padding: .5rem;
+	font-size: 2rem;
+	font-variant:small-caps; 
+}
+.dropdown-item {
+	font-size: 2rem;
+	text-align: center;
+	font-variant:small-caps;
+}
+.dropdown-item:hover{
+	background-color: #267871;
+	color: #fff;
+}
