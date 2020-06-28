@@ -57,6 +57,30 @@ html{
 	color: #fff;
 }
 
+/*quote*/
+
+.quote-container{
+	width: 100%;
+	margin-top: 1rem;
+	padding: 5rem 3rem 0 3rem;
+}
+.quote{
+	display: flex;
+	justify-content: center;
+	font-size: 3rem;
+}
+.quote p{
+	background-image: linear-gradient(135deg,#136a8a, #267871);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 500;
+}
+.quote p i{
+	background-image: linear-gradient(180deg,#000, #000);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 footer{
 	margin-top: 10rem;
 	padding: 10rem;

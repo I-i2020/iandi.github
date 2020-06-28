@@ -26,8 +26,8 @@ html{
 }
 .heading{
     padding-top: 2rem; 
-    text-align: center;
     font-size: 3rem;
+    margin-left: 2.5rem;
     font-weight: 700;
     text-transform: uppercase;
     background-image: linear-gradient(135deg,#136a8a, #267871);
@@ -35,16 +35,59 @@ html{
     -webkit-text-fill-color: transparent;
     padding-top:10rem;
 }
-
-#heading-hr{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 1px solid rgba(0,0,0,.1);
-    box-sizing: content-box;
-    height: 0;
-    overflow: visible;
+.about-main{
+    font-size: 2rem;
+    padding: 3rem;
 }
+.about-main span{
+    font-weight: 500;
+}
+/*kutty story*/
+.nottop{
+    padding-top: 0;
+}
+.kutty-story-p{
+    font-size: 2rem;
+    padding: 3rem;
+}
+.kutty-story-p span{
+    font-weight: 500;
+}
+.nobottompad{
+    padding-bottom: .5rem;
+}
+.kutty-story h3{
+    margin-left: 3rem;
+}
+.overcome{
+    padding-top: .25rem;
+    padding-left: 3.5rem;
+}
+
+.quote-container{
+	width: 100%;
+	margin-top: 1rem;
+	padding: 3rem 3rem 0 3.3rem;
+}
+.quote{
+	display: flex;
+	justify-content: center;
+	font-size: 3rem;
+}
+.quote p{
+	background-image: linear-gradient(135deg,#136a8a, #267871);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 500;
+}
+.quote p i{
+	background-image: linear-gradient(180deg,#000, #000);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/*card*/
+
 .card-body,.card-title,.card-subtitle{
     font-size: 2rem;
     font-weight: 500;

@@ -56,33 +56,38 @@ header{
 	animation-name: downtoup;
 	animation-duration: 1s;
 }
-.btn-joinus{
+.btn-joinus,.btn-joinus:focus{
 	position:absolute;
 	top: 27rem;
 	color: #136a8a;
-	padding: 1.4rem 4rem;
+	padding: 1.4rem 3rem;
 	border-radius: 100px;
 	border-style: none;
-	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 	text-transform: uppercase;
 	outline: none;
 	text-decoration: none;
+	transition: all ease-in-out 500ms;
 }
 .btn-joinus a{
+	color: #136a8a;
 	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 500;
 }
 .btn-joinus a:hover{
 	color: #fff;
+	cursor: pointer;
 }
 
 .btn-joinus:hover{
 	transform: translateY(-.3rem);
-	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.8);
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
 	background-color: #232526;
 	color: white;
-	cursor: pointer;
 	outline: none;
 	text-decoration: none;
+	cursor: default;
 }
 .btn-joinus:active{
 	transform: translateY(-.1rem);
@@ -145,8 +150,9 @@ header{
 	text-transform: uppercase;
 }
 .about-section h1:hover{
-  transform: skewY(5deg);
-  text-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+	transform: scale(0.9);
+	text-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+	cursor: pointer;
 }
 
 .about-content img{
@@ -158,6 +164,10 @@ header{
 	font-size: 2rem;
 	padding:2rem;
 	font-variant: small-caps;
+	font-weight: 300;
+}
+.about-content p span{
+	font-weight: 700;
 }
 
 @media all and (orientation:portrait){
@@ -165,7 +175,7 @@ header{
     	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 	}
 }
-@media all and (max-height:450px){
+@media all and (max-height:580px){
 	.about-section{
     	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 	}
@@ -253,6 +263,29 @@ header{
 	text-decoration: none;
 	border:.2rem solid #fff;
 	box-shadow: inset 400px 0 0 0 #136a8a;
+}
+/*quote*/
+
+.quote-container{
+	width: 100%;
+	margin-top: 1rem;
+	padding: 5rem 3rem 0 3rem;
+}
+.quote{
+	display: flex;
+	justify-content: center;
+	font-size: 3rem;
+}
+.quote p{
+	background-image: linear-gradient(135deg,#136a8a, #267871);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 500;
+}
+.quote p i{
+	background-image: linear-gradient(180deg,#000, #000);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 /*Footer*/
